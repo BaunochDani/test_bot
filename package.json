@@ -1,0 +1,22 @@
+{
+  "name": "me-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config.json": "0.0.4",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "map": "^1.0.1",
+    "new": "^0.1.1",
+    "random-puppy": "^1.1.0",
+    "superagent": "^6.1.0",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.8.2"
+  }
+}
