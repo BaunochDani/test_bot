@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const tokenfile = require("./tokenfile.json");
 const botconfig = require("./botconfig.json");
 const bot =new Discord.Client({disableEveryone: true});
 var weather = require('weather-js');
@@ -245,4 +244,4 @@ if(cmd === `${prefix}report`){
 
 })
 
-bot.login(tokenfile.token);
+bot.login(procces.env.BOT_TOKEN);
